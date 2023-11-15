@@ -1,12 +1,12 @@
 'use client'
 
 import ItemGrid from "../ItemGrid"
-import '@/public/styles/button01.css'
+import '@/public/styles/button03.css'
 
-const Button01 = () => {
+const Button03 = () => {
 
     const html = (
-        <a className="btn1">
+        <a className="btn3">
             <span>Button</span>
             <span>Button</span>
         </a>
@@ -19,4 +19,4 @@ const Button01 = () => {
   )
 }
 
-export default Button01
+export default Button03;

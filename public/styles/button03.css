@@ -1,0 +1,66 @@
+.btn3{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background: rgb(30, 30, 30);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn3::before,
+.btn3::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    transition: 500ms;
+}
+
+.btn3::before {
+    left: 0;
+    background: rgb(252, 0, 21);
+}
+
+.btn3::after {
+    right: 0;
+    background: teal;
+}
+
+.btn3:hover::after,
+.btn3:hover::before {
+    width: 50%;
+}
+
+.btn3 span {
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    z-index: 1;
+    transition: 500ms;
+}
+
+.btn3 span:nth-child(1) {
+    transition-delay: 300ms;
+}
+
+.btn3a:hover span:nth-child(1) {
+    transition-delay: 0s;
+    transform: scale(0);
+}
+
+.btn3 span:nth-child(2) {
+    transition-delay: 0s;
+    transform: scale(6);
+    opacity: 0;
+}
+
+.btn3:hover span:nth-child(2) {
+    transition-delay: 300ms;
+    transform: scale(1);
+    opacity: 1;
+}

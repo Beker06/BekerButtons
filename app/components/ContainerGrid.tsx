@@ -11,7 +11,7 @@ interface ContainerGridProps {
           box-border 
           rounded-lg
           grid 
-          grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 
+          grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 
           bg-white 
           h-auto
           p-2

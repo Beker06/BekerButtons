@@ -8,7 +8,8 @@ interface ItemGridProps {
     return (
       <div
         className="
-            flex 
+            flex
+            relative
             items-center 
             justify-center 
             bg-white 

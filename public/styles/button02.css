@@ -1,10 +1,10 @@
 .btn2{
     border: none;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     cursor: pointer;
     border-radius: 100px;
     font-size: 18px;
-    background: #1040cc;
+    background: #7E4CCB;
     color:#fff;
     position: relative;
 }
