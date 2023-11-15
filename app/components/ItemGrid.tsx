@@ -1,8 +1,8 @@
-'use client'
+'use client';
 
 interface ItemGridProps {
-    html: React.ReactNode;
-  }
+  html?: React.ReactElement;
+}
   
   const ItemGrid: React.FC<ItemGridProps> = ({ html }) => {
     return (

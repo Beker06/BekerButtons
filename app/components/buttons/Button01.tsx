@@ -6,7 +6,7 @@ import '@/public/styles/button01.css'
 const Button01 = () => {
 
     const html = (
-        <a className="btn-1" href="#">
+        <a className="btn1" href="#">
             <span>Button</span>
             <span>Button</span>
         </a>

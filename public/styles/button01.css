@@ -1,4 +1,4 @@
-.btn-1{
+.btn1{
     position: relative;
     display: inline-block;
     width: 160px;
@@ -6,7 +6,7 @@
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
     font-family: 'Poppins', sans-serif;
 }
-.btn-1 span {
+.btn1 span {
     position: absolute;
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@
     letter-spacing: 2px;
     font-size: 18px;
 }
-.btn-1 span:nth-child(2){
+.btn1 span:nth-child(2){
     color: #6c4ba5;
     background-color: #fff;
     overflow: hidden;
@@ -29,9 +29,9 @@
     transition:  0.5s;
     clip-path: polygon(60% 0, 100% 0%, 100% 100%, 60% 100%, 40% 47%);
 }
-.btn-1 span:nth-child(2):hover{
+.btn1 span:nth-child(2):hover{
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 0 50%);
 }
-.btn-1 span:nth-child(1):hover ~ span:nth-child(2){
+.btn1 span:nth-child(1):hover ~ span:nth-child(2){
     clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 100% 50%);
 }
