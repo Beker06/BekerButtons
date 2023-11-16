@@ -10,6 +10,7 @@
     font-weight: 400;
     padding: 10px 30px;
     transition: 0.5s;
+    cursor: pointer;
     --clr:#6EFF3E;
 }
 .btn5:hover{

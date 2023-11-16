@@ -11,6 +11,7 @@
     transform-style: preserve-3d;
     transition:  ease-in-out 2s;
     border-radius: 60px;
+    cursor: pointer;
 }
 .btn10:hover{
     transform: rotateX(360deg);
