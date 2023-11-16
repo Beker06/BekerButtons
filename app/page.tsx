@@ -4,6 +4,7 @@ import Button01 from "@/app/components/buttons/Button01";
 import Button02 from "./components/buttons/Button02";
 import Button03 from "./components/buttons/Button03";
 import Button04 from "./components/buttons/Button04";
+import Button05 from "./components/buttons/Button05";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Button02/>
         <Button03/>
         <Button04/>
+        <Button05/>
       </ContainerGrid>
     </Container>
   )
