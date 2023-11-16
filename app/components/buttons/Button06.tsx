@@ -7,7 +7,7 @@ const Button06 = () => {
 
     const html = (
         <button className="btn6">
-            <span>Hover me</span>
+            <span>Button</span>
         </button>
     )
 
