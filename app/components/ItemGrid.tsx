@@ -14,11 +14,14 @@ interface ItemGridProps {
             justify-center 
             bg-white 
             p-20 
-            min-h-200 
+            border
+            border-1
+            min-h-200
             transition-transform 
             duration-200 
             ease-in-out 
             hover:scale-105
+            hover:z-10
         "
       >
         {html}

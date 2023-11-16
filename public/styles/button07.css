@@ -1,0 +1,27 @@
+.btn7{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00DDFF
+    );
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 1.2rem;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+.btn7 span{
+    background-color: #111;
+    padding: 8px 24px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.btn7:hover span{
+    background: none;
+}
+.btn7:active{
+    transform: scale(0.95);
+}

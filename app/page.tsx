@@ -6,6 +6,7 @@ import Button03 from "./components/buttons/Button03";
 import Button04 from "./components/buttons/Button04";
 import Button05 from "./components/buttons/Button05";
 import Button06 from "./components/buttons/Button06";
+import Button07 from "./components/buttons/Button07";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Button02/>
         <Button05/>
         <Button01/>
+        <Button07/>
       </ContainerGrid>
     </Container>
   )
