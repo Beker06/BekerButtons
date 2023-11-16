@@ -13,7 +13,7 @@ interface ItemGridProps {
             items-center 
             justify-center 
             bg-white 
-            p-20 
+            p-16
             border
             border-1
             min-h-200

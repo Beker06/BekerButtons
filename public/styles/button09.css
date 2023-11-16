@@ -52,10 +52,11 @@
     transition-delay: 0s, 0.5s, 1s;
 }
 .btn9:hover i{
-    width: 30px;
+    width: 28px;
     height: 2px;
     background: #333;
     transition-delay: 0s, 1s, 0.5s;
+    margin-left: 2%;
 }
 .btn9 i::before{
     content: '';
