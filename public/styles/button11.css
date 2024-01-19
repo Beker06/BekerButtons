@@ -1,0 +1,17 @@
+.btn11{
+    background-color: transparent;
+    font-weight: 400;
+    color: #999;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #aaa, -.5rem -.5rem 1rem #fff;
+}
+.btn11:hover{
+    box-shadow: .5rem .5rem 1rem #fff, -.5rem -.5rem 1rem #aaa;
+}
+.btn11:active{
+    box-shadow: inset .2rem .2rem 1rem #fff, inset -.2rem -.2rem 1rem #aaa;
+}

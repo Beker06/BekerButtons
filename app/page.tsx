@@ -9,7 +9,8 @@ import Button06 from "./components/buttons/Button06";
 import Button07 from "./components/buttons/Button07";
 import Button08 from "./components/buttons/Button08";
 import Button09 from "./components/buttons/Button09";
-import Button10 from "./components/buttons/Buttons10";
+import Button10 from "./components/buttons/Button10";
+import Button11 from "./components/buttons/Button11";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Button09/>
         <Button08/>
         <Button10/>
+        <Button11/>
       </ContainerGrid>
     </Container>
   )
